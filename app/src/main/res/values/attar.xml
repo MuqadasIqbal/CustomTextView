@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+
+        <attr name="customTextSize" format="dimension"/>
+         <attr name="customTextColor" format="color"/>
+        <attr name="customTextFont" format="reference" />
+
+        <attr name="customtextAligment" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="center" value="2"   />
+
+        </attr>
+        <attr name="customtextStyle" format="enum">
+            <enum name="bold" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+     <attr name="customText" format="string"/>
+
+    </declare-styleable>
+
+</resources>
