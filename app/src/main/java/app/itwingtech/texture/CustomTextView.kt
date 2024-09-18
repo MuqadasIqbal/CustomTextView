@@ -18,6 +18,7 @@ class CustomTextView @JvmOverloads constructor(context: Context,
        //text = "Muqadas"
     }
 
+
     private fun setCustomText(context: Context, attrs: AttributeSet) {
 
         val typedArray: TypedArray = context.obtainStyledAttributes(attrs, R.styleable.CustomTextView)
